@@ -1,0 +1,28 @@
+.button-topup {
+    width: 100%;
+    height: 10%;
+    margin: 0;
+    margin-bottom: 4px;
+    font-size: 25px;
+}
+
+#topup {
+    margin-top: 10%;
+}
+
+.icon-bank {
+    width: 25px;
+}
+
+#balance {
+    position: absolute;
+    margin-top: 5%;
+    width: 100%;
+    z-index: 999;
+}
+
+#balance-heart {
+    width: 60%;
+    position: absolute;
+    margin-top: -10%;
+}
