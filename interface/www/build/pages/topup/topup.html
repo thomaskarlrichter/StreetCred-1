@@ -1,0 +1,17 @@
+<ion-navbar *navbar>
+  <ion-title text-center>
+    StreetCred
+  </ion-title>
+</ion-navbar>
+
+<ion-content class="topup">
+  <h1 class="text-primary top-10-percent" text-center>Top up</h1>
+  <button id="topup" class="button button-light button-topup">€ Top up your account</button>
+  <button id="addbank" class="button button-light button-topup"><img style="width: 30px" src="assets/bank.png">&nbsp;Add a bank account</button>
+  <button id="addcard" class="button button-light button-topup"><ion-icon name="card"></ion-icon> Add a card</button>
+  <h1 class="text-primary top-10-percent" text-center>Your credit</h1>
+  <div id="balance">
+      <h1 class="text-secondary" text-center>€{{balance}}</h1>
+  </div>
+  <img id="balance-heart" src="assets/heart-icon.svg" class="centered-middle">
+</ion-content>

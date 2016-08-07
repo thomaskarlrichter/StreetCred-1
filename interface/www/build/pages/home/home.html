@@ -1,0 +1,12 @@
+<ion-navbar *navbar>
+  <ion-title text-center>
+    StreetCred
+  </ion-title>
+</ion-navbar>
+
+<ion-content class="home">
+  <h1 class="text-primary top-10-percent" text-center>Scan QR Code</h1>
+  <img id="scan-border" class="centered-both" src='assets/scan-border.png'>
+  <img id="scan-qr" class="centered-both" src='assets/qr.png'>
+  <button id="start-scan" class="button button-light bottom-10-percent centered-middle" (click)="startScan()">Start scan</button>
+</ion-content>
